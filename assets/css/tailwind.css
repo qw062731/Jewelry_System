@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: '華康超黑體';
+  src: url('../font/超黑體.TTC')
+}
 
 /*
 ! tailwindcss v3.0.15 | MIT License | https://tailwindcss.com
@@ -60,6 +64,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  background-color: #E0E0E0;
 }
 
 /*
@@ -86,6 +91,850 @@ abbr:where([title]) {
   text-decoration: underline dotted;
 }
 
+
+/*
+首頁上方導覽列
+*/
+
+
+.main_navbar_padding{
+  margin-left: 1.5rem;
+}
+
+.main_navbar_padding_1{
+  margin: auto;
+}
+
+
+.main_navbar_margin{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  height: 70px;
+  width: 100%;
+}
+
+.main_navbar_margin_1{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  height: 70px;
+}
+
+.bottom_navbar_margin{
+  margin-top: 3px;
+  display: flex;
+  height: 70px;
+  background-color: #F4E9E5;
+  width: 100%;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+}
+
+.icon_width{
+  width: 35px;
+}
+.icon_width_1{
+  width: 50px;
+}
+
+.icon_width_2{
+  width: 40px;
+}
+
+.backgound_img{
+  --tw-bg-opacity: 1;
+  background-color: #9E5D2F;
+}
+
+.bottom_backgound_img{
+  --tw-bg-opacity: 1;
+  background-color: #D8CDC7;
+}
+
+.bg_white_01{
+  --tw-bg-opacity: 1;
+  background-color: #F9F5F2;
+}
+
+.bg_white_02{
+  --tw-bg-opacity: 1;
+  background-color: #ffe9c6;
+}
+
+.fa-search:before{
+  color: white;
+  font-size: 1.7rem;
+}
+
+/*
+首頁我的條碼列
+*/
+
+.border_none{
+  background-color: #FCF3EC;
+  border-style: solid;
+  border-color: #090e34;
+  margin: 0.8%;
+  border-radius: 10px;
+  height: 100px;
+  display: flex;
+  width: auto;
+}
+
+.border_none_1{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:1px 1px 5px #A7A7A7;
+}
+
+.img_width{
+  width: 20%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.img_width_change{
+  width: 40%;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+.img_width_1{
+  width: 32%;
+  float: left;
+  display: flex;
+}
+
+.main_margin_right{
+  margin-right: 2%;
+}
+
+
+
+/*
+banner 的上下頁符號
+*/
+
+.carousel-inner{background-color:#EFEFEF;}
+
+.fa-chevron-left:before{content:"\f053"}
+.fa-chevron-right:before{content:"\f054"}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #ffffff;
+    text-shadow: 1px 5px 8px rgba(0, 0, 0, 0.4);
+  font-size: 2.2em !important;
+  font-weight: 900;
+}
+
+.banner_img_frame{
+  width: auto;
+}
+
+.main_btn_padding{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.carousel-control-next,.carousel-control-prev{
+  position:absolute;
+  top:0;bottom:0;
+  z-index:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:15%;color:#fff;
+  text-align:center;
+  opacity:.8;
+  transition:opacity .15s ease
+}
+
+.carousel-control-prev {
+  left: 0
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  background-color: #d6aa4c;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease
+}
+
+/*
+下方導覽列
+*/
+
+.main_navbar{
+  background-color: #D8CDC7;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 3px;
+}
+
+.navbar_container{
+
+  margin: 0.8%;
+  display: flex;
+}
+
+.footer_menu{
+  width: 20%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}
+
+.footer_menu_border_right{
+  border-left:2.5px solid  #D8CDC7
+}
+
+.float_right{
+    float:right;
+    padding-top: 5px;
+}
+
+.float_left{
+    float:left;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.float_left_1{
+  float:left;
+}
+
+.height_50px{
+    height: 50px;
+}
+
+.height_70px{
+  height: 70px;
+}
+
+.navbar_width_70{
+  width: 70%;
+}
+
+.navbar_width_10{
+  width: 10%;
+}
+
+.navbar_width_90{
+  width: 95%;
+  margin:auto;
+}
+
+.navbar_img_width{
+  width: 350px;
+}
+
+.navbar_img_width_1{
+  max-width: 75%;
+}
+
+.banner_img_width{
+  max-width: 25%;
+}
+
+.button_bar_1{
+  width: 100%;
+  background-color: white;
+  height: 120px;
+}
+
+/*======================================*/
+
+/* 第二頁-黃金存摺 */
+.GoldPB_top{
+  width: 100%;
+  height: 170px;
+  background-color: #9E5D2F;
+  box-shadow:1px 1px 12px #4f4f4f;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.GoldPB_top_life{
+  width: 100%;
+  height: 120px;
+  background-color: #9E5D2F;
+  box-shadow:1px 1px 12px #4f4f4f;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.div_01_width{
+  width:100%;
+  margin: auto;
+  position: relative;
+  top:-85px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.img_01_width{
+  max-height: 100%;
+  display: block;
+  margin: auto;
+  
+}
+
+.text_01{
+  color: white;
+  font-weight:600;
+  font-size:2rem;
+  text-align: center;
+}
+
+.text_02{
+  color: white;
+  font-weight:600;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.text_03{
+  color: white;
+  font-weight:600;
+  font-size:2.3rem;
+  text-align: center;
+}
+
+.div_02_width{
+  height: 140px;
+  max-width:100%;
+  margin: auto;
+  position: relative;
+  padding-left: 6%;
+  padding-right: 6%;
+  text-align: center;
+  padding-top: 23px;
+  background-image: url("../main_navbar/page_02_01_1.png");
+  background-size: 100% auto;
+  box-shadow: 1px 1px 5px #4f4f4f;
+}
+
+.div_03_width{
+  width:100%;
+  position: relative;
+  top:-70px;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+}
+
+.div_03_width_bm{
+  width:100%;
+  position: relative;
+  top:-85px;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+}
+
+.div_03_img{
+  float: left;
+  width: 32%;
+  height: 100%;
+  padding: 2%;
+}
+
+.border_shadow_Gold{
+  box-shadow: 1px 1px 10px #a3a3a3;
+  border:3px solid  #E09A28;
+}
+
+.border_shadow_white{
+  box-shadow: 1px 1px 10px #a3a3a3;
+  border:3px solid  white;
+}
+
+/*======================================*/
+
+/* 第三頁-黃金存摺報價 */
+.GoldPB_top_page3{
+  width: 100%;
+  height: 130px;
+  background-color: #9E5D2F;
+  box-shadow:1px 1px 12px #4f4f4f;
+  display: block;
+  margin: auto;
+  padding-top:35px;
+}
+
+.div_03_width_page3{
+  height: 160px;
+  margin: auto;
+  width:100%;
+  margin-top: 2%;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+}
+
+.div_02_width_page3{
+  height: 100%;
+  width:90%;
+  position: relative;
+  padding-left: 6%;
+  padding-right: 6%;
+  text-align: center;
+  padding-top: 5%;
+  background-image: url("../main_navbar/Gold_page_01.png");
+  background-size: 100% 100%;
+  box-shadow: 1px 1px 5px #4f4f4f;
+}
+
+.div_02_width_page3_02{
+  height: 100%;
+  width:90%;
+  position: relative;
+  padding-left: 6%;
+  padding-right: 6%;
+  text-align: center;
+  padding-top: 5%;
+  background-image: url("../main_navbar/Gold_page_02.png");
+  background-size: 100% 100%;
+  box-shadow: 1px 1px 5px #4f4f4f;
+}
+
+.page3_div_text{
+  margin-top: 3%;
+  margin-right: 7%;
+  margin-bottom:10%;
+}
+
+.page3_text{
+  font-size: auto;
+}
+
+/* 第四頁 ======================================*/
+
+.page4_div_01{
+    margin-top: 5%;
+    height: 500px;
+    text-align: center;
+    display: block;
+    background-color: #FCF3EC;
+}
+
+.page4_div_01_1{
+  margin-top: 5%;
+  height: 250px;
+  text-align: center;
+  display: block;
+  background-color: #FCF3EC;
+}
+
+.page4_div_02{
+  float: left;
+  height: 180px;
+  width:100%;
+  text-align: center;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.page_div_03{
+  padding: 1rem 1rem 0 1rem;
+}
+
+.page4_div_04{
+  height: 100%;
+  width:100%;
+  position: relative;
+  padding-left: 6%;
+  padding-right: 6%;
+  text-align: center;
+  padding-top: 5%;
+  background-image: url("../main_navbar/Gold_page_02.png");
+  background-size: 100% 100%;
+  box-shadow: 1px 1px 5px #4f4f4f;
+}
+
+.page4_div_04_1{
+  height: 100%;
+  width:100%;
+  position: relative;
+  padding-left: 6%;
+  padding-right: 6%;
+  text-align: center;
+  padding-top: 5%;
+  background-image: url("../main_navbar/Gold_page_01.png");
+  background-size: 100% 100%;
+  box-shadow: 1px 1px 5px #4f4f4f;
+}
+
+.page4_div_05{
+  height: 160px;
+  width:100%;
+  margin-top: 2%;
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+}
+
+.page4_div_06{
+  float: left;
+  height: 30px;
+  width:100%;
+  text-align: center;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 3%;
+}
+
+.page4_div_07{
+  width: 50%;
+}
+
+
+/* 第五頁 ======================================*/
+
+.div_05_width{
+  height: 140px;
+  width:100%;
+  top:-50px;
+  text-align: center;
+  padding: 2%;
+  margin-top : 5%;
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;
+}
+
+/* 第六頁(six)======================================*/
+
+.div_06_width{
+  height: 170px;
+  width:80%;
+  text-align: center;
+  justify-content: center;
+  background-color: #E19C2D;
+  border:4px solid  #FFD9B4;
+  margin: 3% 10% 0 10%;
+}
+
+.GoldPB_top_page6{
+  width: 100%;
+  height: 120px;
+  background-color: #9E5D2F;
+  box-shadow:1px 1px 12px #4f4f4f;
+  display: block;
+  margin: auto;
+  padding-top: 3%;
+}
+
+.div_06_p_01{
+  float: left;
+  height: 100%;
+  padding:2%;
+  width: 50%;
+}
+
+.div_page6_width100{
+  width: 100%;
+}
+
+.div_page6_table{
+  background-color: #FCF3ED;
+  display: inline-block;
+}
+
+/*== 第七頁 ====================================*/
+
+.div_07_width{
+  width:100%;
+  position: relative;
+  top:-100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+/*== 第八頁 ====================================*/
+
+.div_08_width{
+    width: 100%;
+    height: 120px;
+    background-color: #9E5D2F;
+    box-shadow:1px 1px 12px #4f4f4f;
+    display: block;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.div_08_width_1{
+  height: 100%;
+  width:100%;
+  position: relative;
+  top:-30px;
+  text-align: center;
+  padding-top: 2%;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.div_08_text_1{
+  margin-top: 3%;
+}
+.div_08_border{
+  border-top:4px solid #E1E0E0;
+}
+
+.div_08_shadow{
+  box-shadow:1px 1px 10px #A7A7A7;
+}
+
+.div_08_mt_3{
+  margin-top: 3%;
+}
+
+.div_08_mt_3{
+  margin-top: 3%;
+}
+
+/*連結電子支付*/
+
+.select-menu .select-btn{
+  font-size: 1.1rem;
+  display: flex;
+  height: 55px;
+  background-color: #FFF;
+  color: #5C5C5C;
+  padding: 20px;
+  font-weight: 550;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.select-menu_02 .select-btn_02{
+  font-size: 1.1rem;
+  display: flex;
+  height: 55px;
+  background-color: #FFF;
+  color: #5C5C5C;
+  padding: 20px;
+  font-weight: 550;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.select-menu_03 .select-btn_03{
+  font-size: 1.1rem;
+  display: flex;
+  height: 55px;
+  background-color: #FFF;
+  color: #5C5C5C;
+  padding: 20px;
+  font-weight: 550;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.select-menu .options{
+    font-size: 1.1rem;
+    color: #5C5C5C;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+    display: none;
+}
+
+.select-menu_02 .options_02{
+  font-size: 1.1rem;
+  color: #5C5C5C;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #FFF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  display: none;
+}
+
+.select-menu_03 .options_03{
+  font-size: 1.1rem;
+  color: #5C5C5C;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #FFF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  display: none;
+}
+
+.select-menu.active .options{
+  display: block;
+}
+
+.select-menu_02.active .options_02{
+  display: block;
+}
+
+.select-menu_03.active .options_03{
+  display: block;
+}
+
+.options .option{
+  font-weight: 550;
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 35px;
+  border-radius: 8px;
+  align-items: center;
+  background-color: #FFF;
+}
+
+.options_02 .option_02{
+  font-weight: 550;
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 35px;
+  border-radius: 8px;
+  align-items: center;
+  background-color: #FFF;
+}
+
+.options_03 .option_03{
+  font-weight: 550;
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 35px;
+  border-radius: 8px;
+  align-items: center;
+  background-color: #FFF;
+}
+
+.options .option:hover{
+  background-color: #F2F2F2;
+}
+
+.options_02 .option_02:hover{
+  background-color: #F2F2F2;
+}
+
+.options_03 .option_03:hover{
+  background-color: #F2F2F2;
+}
+
+/*
+安全設定
+*/
+
+.top_frame{
+  width: 100%;
+  background-color: #9E5D2F;
+  box-shadow:1px 1px 12px #4f4f4f;
+}
+
+.div_safe_width{
+  height: 700px;
+  width:65%;
+  position: relative;
+  text-align: center;
+  padding: 2%;
+  justify-content: center;
+  margin: 4% auto auto auto;
+}
+
+/*
+連結電子支付
+*/
+
+.div_EPay_width{
+  text-align: center;
+  justify-content: center;
+  background-color: #E19C2D;
+  border:4px solid  #FFD9B4;
+  margin: 3%;
+}
+
+.border_style{
+  border-top: 2px #F7BA72 solid;
+}
+
+.border_style_right{
+  border-right: 2px #F7BA72 solid;
+}
+
+.orange_bg_color{
+  background-color: #E19C2D;
+}
+
 /*
 Remove the default font size and weight for headings.
 */
@@ -103,6 +952,7 @@ h6 {
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
+
 
 a {
   color: inherit;
@@ -481,37 +1331,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 16px;
-  padding-left: 16px;
+  /*
+    padding-right: 16px;
+    padding-left: 16px;
+  */
 }
+
 
 @media (min-width: 540px) {
   .container {
-    max-width: 540px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 720px) {
   .container {
-    max-width: 720px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 960px) {
   .container {
-    max-width: 960px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 1140px) {
   .container {
-    max-width: 1140px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 1320px) {
   .container {
-    max-width: 1320px;
+    max-width: 100%;
   }
 }
 
@@ -538,6 +1391,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .top-0 {
   top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .left-0 {
@@ -677,6 +1534,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
+.mb-10_1 {
+  margin-bottom: 2.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -687,6 +1550,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-9 {
   margin-bottom: 2.25rem;
+}
+
+.mb-11 {
+  padding-bottom: 1.5rem;
 }
 
 .mb-2 {
@@ -701,12 +1568,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 3rem;
 }
 
+.mt-9 {
+  margin-top: 0.5rem;
+}
+
+.mt-18 {
+  margin-top: 1rem;
+}
+
 .mt-\[6px\] {
   margin-top: 6px;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
 }
 
 .mb-\[60px\] {
@@ -727,6 +1606,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-11 {
   margin-bottom: 2.75rem;
+}
+
+.mb-6rem {
+  margin-bottom: 6rem;
 }
 
 .mb-12 {
@@ -755,6 +1638,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-16 {
   margin-top: 4rem;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mt-65 {
+  margin-top: 65px;
 }
 
 .mb-3 {
@@ -793,6 +1684,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.display_table {
+  display: table;
+}
+
+.display_contents {
+  display: contents;
+}
+
 .h-\[2px\] {
   height: 2px;
 }
@@ -817,8 +1716,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.h-90 {
+  height: 90%;
+}
+
+.h-90_main {
+  height: 90%;
+}
+
 .h-\[50px\] {
   height: 50px;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-20 {
@@ -847,6 +1758,33 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-full {
   width: 100%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-5 {
+  /*width: 8%;*/
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.w-68 {
+  width: 72%;
+  display: grid;
 }
 
 .w-60 {
@@ -891,6 +1829,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-85 {
+  width: 85%;
 }
 
 .w-\[50px\] {
@@ -1127,6 +2069,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-\[\#F3F4FE\] {
   --tw-border-opacity: 1;
+  border-color: #E0E0E0;
+}
+
+.border-\[\#E0E0E0\] {
+  --tw-border-opacity: 1;
   border-color: rgb(243 244 254 / var(--tw-border-opacity));
 }
 
@@ -1147,14 +2094,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-white_01 {
+  --tw-bg-opacity: 1;
+  background-color: #FAF6F3;
+}
+
+.bg-yellow_01 {
+  --tw-bg-opacity: 1;
+  background-color: #ffead2;
+}
+
+.bg-white_02 {
+  --tw-bg-opacity: 1;
+  background-color: #FCF3ED;
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(199 153 73 / var(--tw-bg-opacity));
+  background-color: #9E5D2F;
 }
 
 .bg-\[\#f5f8ff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 248 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f3e8d3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 232 211 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -1165,6 +2132,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#f3f4fe\] {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 254 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E0E0E0\] {
+  --tw-bg-opacity: 1;
+  background-color: #E0E0E0;
 }
 
 .bg-\[\#13C296\] {
@@ -1278,13 +2250,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
+
+
+.px-1_percent {
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-44 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-5 {
@@ -1295,6 +2275,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .py-\[6px\] {
@@ -1322,6 +2307,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.75rem;
 }
 
+
+.px-7_myset {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1332,12 +2323,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 3.5rem;
 }
 
+.py-14_1 {
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
 .px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.px-8_2 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -1403,6 +2403,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pt-\[60px\] {
   padding-top: 60px;
 }
+.pt-\[51px\] {
+  padding-top: 51px;
+}
 
 .pb-\[100px\] {
   padding-bottom: 100px;
@@ -1410,6 +2413,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pt-20_1 {
+  padding-top: 2rem;
+}
+
+.pt-20_2 {
+  padding-top: 0.7rem;
+}
+
+.pb-20_2 {
+  padding-bottom: 0.7rem;
 }
 
 .pb-20 {
@@ -1452,9 +2471,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-base {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1rem;
+}
+
+.text-base_1{
+  font-size: 1.05rem;
+  line-height: 1rem;
 }
 
 .text-sm {
@@ -1467,8 +2495,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.5rem;
 }
 
+.text-4xl_1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-3xl_1 {
+  font-size: 1.8rem;
+  line-height: 2.25rem;
+}
+
+.text-3xl_2 {
+  font-size: 1.7rem;
   line-height: 2.25rem;
 }
 
@@ -1476,6 +2519,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+
+.text-xl_1 {
+  font-size: 1.3rem;
+  line-height: 1.75rem;
+}
+
 
 .text-lg {
   font-size: 1.125rem;
@@ -1490,6 +2539,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.5rem;
   line-height: 2rem;
 }
+
+.text-2xl_1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 
 .text-xs {
   font-size: 0.75rem;
@@ -1508,8 +2563,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 28px;
 }
 
+.text-large {
+  font-size: large;
+}
+
+.text-larger {
+  font-size: larger;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-medium_1 {
+  font-weight: 550;
 }
 
 .font-semibold {
@@ -1523,6 +2590,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-normal {
   font-weight: 400;
 }
+
+.font-boler {
+  font-weight: bold;
+}
+
 
 .uppercase {
   text-transform: uppercase;
@@ -1552,6 +2624,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.375;
 }
 
+.line-height_50 {
+  line-height: 50px;
+}
+
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -1559,6 +2635,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-dark {
   --tw-text-opacity: 1;
   color: rgb(9 14 52 / var(--tw-text-opacity));
+}
+
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(80 83 88 / var(--tw-text-opacity));
+}
+
+.text.black_001{
+  color:#161616;
+}
+
+
+.text-gray_01 {
+  --tw-text-opacity: 1;
+  color: #534a45;
+}
+
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(0 112 192 / var(--tw-text-opacity));
 }
 
 .text-body-color {
@@ -1569,6 +2665,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-brown_02 {
+  --tw-text-opacity: 1;
+  color: #9E5D2F;
+}
+
+.text-brown_03 {
+  --tw-text-opacity: 1;
+  color: #82634D;
+}
+
+.text-yellow {
+  --tw-text-opacity: 1;
+  color: #C79949}
+
+.text-blown {
+  --tw-text-opacity: 1;
+  color: #777C83;
+  font-size: 0.8rem;
+  padding-top: 11px;
 }
 
 .text-dark-700 {
@@ -1620,6 +2737,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(173 173 173 / var(--tw-text-opacity));
 }
 
+.text_shadow{
+  text-shadow: 0.06em 0.06em #333
+}
+
 .placeholder-white::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(255 255 255 / var(--tw-placeholder-opacity));
@@ -1649,6 +2770,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-placeholder-opacity: 1;
   color: rgb(172 182 190 / var(--tw-placeholder-opacity));
 }
+
+.placeholder-\[\#404040\]::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(127 127 127 / var(--tw-placeholder-opacity));
+}
+
+
 
 .opacity-50 {
   opacity: 0.5;
@@ -1737,7 +2865,7 @@ body {
 .sticky {
   position: fixed;
   z-index: 9999;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  /*background-color: rgb(255 255 255 / var(--tw-bg-opacity));*/
   --tw-bg-opacity: 0.8;
   transition-property: color, background-color, border-color, fill, stroke,
     opacity, box-shadow, transform, filter, -webkit-text-decoration-color,
@@ -2031,7 +3159,44 @@ body {
   opacity: 1;
 }
 
-@media (min-width: 540px) {
+@media (max-width:460px) {
+.px-8_2{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+.select-menu .select-btn{
+  font-size: 4vmin;
+}
+.select-menu_02 .select-btn_02{
+  font-size: 4vmin;
+}
+
+.select-menu_03 .select-btn_03{
+  font-size: 4vmin;
+}}
+
+@media (max-width:340px) {
+  .text-2xl_1{
+    font-size: 6.5vmin;
+  }
+  .text_02{
+    font-size: 11vmin;
+  }
+  .text_03{
+    font-size: 14vmin;
+  }
+  .text_01{
+    font-size: 10vmin;
+  }
+  .text-3xl{
+    font-size: 10vmin;
+  }
+}
+
+@media (min-width:320px) {
+
   .sm\:flex {
     display: flex;
   }
@@ -2077,6 +3242,8 @@ body {
     line-height: 2.5rem;
   }
 
+
+
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2084,6 +3251,11 @@ body {
 
   .sm\:text-3xl {
     font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-70 {
+    font-size: 1.7rem;
     line-height: 2.25rem;
   }
 
@@ -2114,7 +3286,148 @@ body {
   }
 }
 
+@media (min-width:370px) {
+  .h-90_main{
+    height: 95%;
+  }
+  .footer_menu{
+    height: 82%;
+  }
+  .navbar_img_width_1{
+    max-width: 72%;
+  }
+}
+
+@media (min-width:390px) {
+
+  .div_07_width{
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+
+    .h-90_main{
+      height: 95%;
+    }
+    .footer_menu{
+      height: 82%;
+    }
+    .navbar_img_width_1{
+      max-width: 72%;
+    }
+    .div_02_width{
+      width: 95%;
+    }
+    .div_03_width_page3{
+      width: 88%;
+    }
+}
+
+@media (min-width:500px) {
+
+  .div_safe_width{
+    width: 60%;
+  }
+  .h-90_main{
+    height: 100%;
+  }
+  .bottom_navbar_margin{
+    padding-top: 0;
+  }
+  .div_01_width{
+    width: 90%;
+  }
+  .div_03_width{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .div_03_width_bm{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .div_03_width_page3{
+    width: 80%;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .px-7_myset {
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+  }
+  .div_07_width{
+    padding-left: 14%;
+    padding-right: 14%;
+  }
+
+  .div_safe_width{
+    width: 55%;
+  }
+
+  .div_01_width{
+    width: 80%;
+  }
+  .div_03_width{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .div_03_width_bm{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .div_03_width_page3{
+    width: 50%;
+    float: left;
+  }
+  .page3_text{
+    font-size: 3vmin;
+  }
+  .page4_div_05{
+    padding: 1% 3% 1% 3%;
+  }
+}
+
 @media (min-width: 720px) {
+
+  .div_safe_width{
+    width: 50%;
+  }
+
+  .main_navbar_margin{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .div_03_width{
+    padding:1% 18% 1% 18%;
+  }
+  .div_03_width_bm{
+    padding:1% 18% 1% 18%;
+  }
+
+  .w-68 {
+    width: 76%;
+    display: grid;
+  }
+
+  .banner_img_frame{
+    width: 95%;
+    margin: auto;
+  }
+
+  .main_btn_padding{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .h-90_main{
+    height: 105%;
+  }
+
+  .div_01_width{
+    width: 70%;
+  }
+
   .md\:mr-10 {
     margin-right: 2.5rem;
   }
@@ -2233,7 +3546,96 @@ body {
   }
 }
 
+@media (min-width: 760px){
+
+  .px-7_myset {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .div_07_width{
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+  
+  .div_safe_width{
+    width: 45%;
+  }
+  .div_03_width_page3{
+    height: 170px;
+  }
+  .page3_text{
+    font-size: 3.3vmin;
+  }
+  .page4_div_05{
+    padding: 0.7% 4% 0.7% 4%;
+  }
+}
+
 @media (min-width: 960px) {
+  .px-7_myset {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .div_07_width{
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+
+  .div_safe_width{
+    width: 40%;
+  }
+
+  .text-lg{ font-size: 1.25rem;}
+
+  .page4_div_05{
+    padding: 0.5% 6% 0.5% 6%;
+  }
+
+  .w-68 {
+    width: 79%;
+    display: grid;
+  }
+  
+  .div_03_width{
+    padding:1% 20% 1% 20%;
+  }
+  .div_03_width_bm{
+    padding:1% 20% 1% 20%;
+  }
+
+  .banner_img_frame{
+    width: 85%;
+  }
+
+  .main_btn_padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .border_none{
+    width: 100%;
+  }
+
+  .navbar_width_90{
+    width: 85%;
+    margin:auto;
+  }
+
+  .bottom_navbar_margin{
+    padding-top:0.2%;
+    padding-bottom: 1.0%;
+  }
+
+  .h-90_main{
+      height: 120%;
+  }
+
+  .div_03_width_page3{
+    height: 180px;
+  }
+
   .lg\:invisible {
     visibility: hidden;
   }
@@ -2541,6 +3943,50 @@ body {
 }
 
 @media (min-width: 1140px) {
+  
+  .div_07_width{
+    padding-left: 26%;
+    padding-right: 26%;
+  }
+
+
+  .div_safe_width{
+    width: 35%;
+  }
+
+  .text-lg{ font-size: 1.25rem;}
+
+  .page4_div_05{
+    padding: 0.3% 9% 0.3% 9%;
+  }
+  
+  .page3_text{
+    font-size: 3.6vmin;
+  }
+
+  .div_03_width_page3{
+    height: 200px;
+  }
+
+  .div_01_width{
+    width: 60%;
+  }
+
+  .w-68 {
+    width: 81%;
+    display: grid;
+  }
+  
+  .banner_img_frame{
+    width: 75%;
+  }
+
+  .navbar_width_90{
+    width: 75%;
+    margin:auto;
+  }
+
+
   .xl\:ml-12 {
     margin-left: 3rem;
   }
@@ -2606,6 +4052,43 @@ body {
 }
 
 @media (min-width: 1320px) {
+  
+  .div_07_width{
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .text-lg{ font-size: 1.25rem;}
+
+  .page4_div_05{
+    padding: 0.1% 11% 0.1% 11%;
+  }
+
+  .w-68 {
+    width: 82%;
+    display: grid;
+  }
+  .div_03_width_page3{
+    height: 220px;
+  }
+  
+  .div_03_width{
+    padding:1% 25% 1% 25%;
+  }
+  .div_03_width_bm{
+    padding:1% 25% 1% 25%;
+  }
+
+  .bottom_navbar_margin{
+    padding-top:0.2%;
+    padding-bottom: 1.1%;
+  }
+
+  .h-90_main{
+      height: 130%;
+  }
+
+
   .\32xl\:max-w-\[120px\] {
     max-width: 120px;
   }
